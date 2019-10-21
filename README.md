@@ -66,3 +66,6 @@ We are happy to help if you have any questions. Please contact email our Support
 
 [1]: https://codecov.io/
 [4]: https://github.com/codecov/codecov-bash
+
+
+[![Coverage Status](https://coveralls.io/repos/github/superVeitch/codecov-go/badge.svg?branch=master)](https://coveralls.io/github/superVeitch/codecov-go?branch=master)
