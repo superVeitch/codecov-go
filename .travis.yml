@@ -6,9 +6,11 @@ go:
 
 before_install:
   - go get -t -v ./...
+  - go get github.com/mattn/goveralls
 
 script:
   - ./go.test.sh
+  - goveralls -service=travis-ci
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t '60b70b09-a98a-4b96-816f-2d721740a490'
